@@ -22,7 +22,7 @@ namespace VS2019FeaturedApp.Controllers
         public IActionResult Index()
         {
             ViewBag.Message = "Sample message from controller";
-            
+            //test
             return View();
         }
 
