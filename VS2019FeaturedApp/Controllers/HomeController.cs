@@ -18,12 +18,11 @@ namespace VS2019FeaturedApp.Controllers
             _logger = logger;
         }
 
-        //There is a bug in Index
+        
         public IActionResult Index()
         {
             ViewBag.Message = "Sample message from controller";
-            //Update bug here
-            ViewBag.Title = "Updated title";
+            
             return View();
         }
 
